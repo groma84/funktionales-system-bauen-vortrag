@@ -1,0 +1,1 @@
+decktape --size 1920x1080 --pause 3000 --load-pause 3000 reveal http://localhost:8000/ Do-Fun-Things-with-Beer-Funktionale-Architektur--Martin_Grotz--SocratesDayFranken-2019.pdf
