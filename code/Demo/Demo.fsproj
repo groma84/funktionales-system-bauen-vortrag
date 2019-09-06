@@ -1,16 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
+    <Compile Include="Data/NonEmptyString.fs" />
+    <Compile Include="Data/Weekday.fs" />
+    <Compile Include="Data/Time.fs" />
+    <Compile Include="Data/Name.fs" />
+    <Compile Include="Data/House.fs" />
+    <Compile Include="Data/Year.fs" />
+    <Compile Include="Data/Student.fs" />
+    <Compile Include="Data/Teacher.fs" />
+    <Compile Include="Data/Course.fs" />
+    <Compile Include="Data/ScheduledClass.fs" />
+    <Compile Include="Data/Hogwarts.fs" />
     <Compile Include="Library.fs" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="FSharpPlus" Version="1.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
   </ItemGroup>
-
 </Project>
