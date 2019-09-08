@@ -8,7 +8,8 @@
     <Compile Include="Data/Time.fs" />
     <Compile Include="Data/Name.fs" />
     <Compile Include="Data/House.fs" />
-    <Compile Include="Data/Year.fs" />
+    <Compile Include="Data\SchoolYear.fs" />
+    <Compile Include="Data\Year.fs" />
     <Compile Include="Data/Student.fs" />
     <Compile Include="Data/Teacher.fs" />
     <Compile Include="Data/Course.fs" />

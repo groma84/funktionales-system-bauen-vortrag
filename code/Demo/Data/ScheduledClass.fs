@@ -7,8 +7,6 @@ open Data.Weekday
 open Data.Time
 
 type ScheduledClass =
-    { teacher : Teacher
-      enrolledStudents : Student list
-      course : Course
+    { course : Course
       weekday : Weekday
       startTime : Time }

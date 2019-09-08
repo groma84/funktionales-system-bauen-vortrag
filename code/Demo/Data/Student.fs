@@ -1,10 +1,10 @@
 module Data.Student
 
 open Data.Name
-open Data.Year
+open Data.SchoolYear
 open Data.House
 
 type Student =
     { name : Name
-      year : Year
+      year : SchoolYear
       house : House }
