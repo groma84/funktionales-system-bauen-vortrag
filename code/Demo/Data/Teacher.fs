@@ -1,6 +1,6 @@
-module Data.Teacher
+module Demo.Data.Teacher
 
-open Data.Name
+open Name
 
 type Teacher =
     { name : Name }

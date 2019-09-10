@@ -1,4 +1,4 @@
-module Data.SchoolYear
+module Demo.Data.SchoolYear
 
 type SchoolYear =
     | FirstYear

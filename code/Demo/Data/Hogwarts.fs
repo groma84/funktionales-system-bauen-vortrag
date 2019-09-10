@@ -1,12 +1,12 @@
-module Data.Hogwarts
+module Demo.Data.Hogwarts
 
 open System.Collections.Generic
 
-open Data.Student
-open Data.ScheduledClass
-open Data.Course
-open Data.Teacher
-open Data.Year
+open Demo.Data.ScheduledClass
+open Demo.Data.Teacher
+open Demo.Data.Year
+open Demo.Data.Student
+open Demo.Data.Course
 
 type ScheduledClasses = Dictionary<ScheduledClass, Teacher>
 

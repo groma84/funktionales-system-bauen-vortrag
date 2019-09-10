@@ -1,12 +1,14 @@
-module Data.ScheduledClass
+module Demo.Data.ScheduledClass
 
-open Data.Teacher
-open Data.Student
-open Data.Course
-open Data.Weekday
-open Data.Time
+open Teacher
+open Student
+open Course
+open Weekday
+open Time
 
 type ScheduledClass =
     { course : Course
       weekday : Weekday
-      startTime : Time }
+      startTime : Time
+      students : Student list
+      teacher: Teacher option }

@@ -1,4 +1,4 @@
-module Data.Weekday
+module Demo.Data.Weekday
 
 type Weekday =
     | Monday

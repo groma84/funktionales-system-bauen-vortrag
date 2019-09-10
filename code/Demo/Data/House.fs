@@ -1,4 +1,4 @@
-module Data.House
+module Demo.Data.House
 
 type House =
     | Gryffindor

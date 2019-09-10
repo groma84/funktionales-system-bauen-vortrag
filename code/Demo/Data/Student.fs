@@ -1,8 +1,8 @@
-module Data.Student
+module Demo.Data.Student
 
-open Data.Name
-open Data.SchoolYear
-open Data.House
+open Name
+open SchoolYear
+open House
 
 type Student =
     { name : Name

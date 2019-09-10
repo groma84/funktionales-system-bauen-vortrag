@@ -1,4 +1,4 @@
-module Data.NonEmptyString
+module Demo.Data.NonEmptyString
 
 open System
 
